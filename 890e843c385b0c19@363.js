@@ -585,7 +585,7 @@ if (showPolicyDrivers && showOceanComponents && viewMode !== "Convention → Pol
   
   const legend = svg.append("g")
     .attr("class", "legend")
-    .attr("transform", `translate(${margin.left}, ${margin.bottom + 600})`);
+    .attr("transform", `translate(${margin.left + 110}, ${margin.bottom + 600})`);
   
   let yOffset = 0;
   legendData.forEach((item) => {
